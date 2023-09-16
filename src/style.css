@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #672280 1.18%, #A626D3 100%);
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar > section{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin: 2.5%;
+}
+.navbar-img{
+    width: 31.306px;
+    height: 26.218px;
+}
+.navbar-title{
+    margin-left: 10px;
+
+    color: #FFF;
+    font-family: Karla;
+    font-size: 20.748px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.075px;
+}
+
+.navbar-description{
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
